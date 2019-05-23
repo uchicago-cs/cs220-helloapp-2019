@@ -4,7 +4,4 @@ branches:
 
 language: python
 
-jobs:
-    include:
-    - stage: test
-      script: pytest
+script: pytest
