@@ -1,6 +1,8 @@
-hello:test:
-    stage: test
-    script:
-	- pytest
+branches:
     only:
-	- master
+    - master
+
+jobs:
+    include:
+	- stage: test
+	  script: pytest
