@@ -1,0 +1,12 @@
+dist: xenial
+
+branches:
+  only:
+    - master
+
+language: c
+
+compiler: gcc
+
+script:
+  - pytest
