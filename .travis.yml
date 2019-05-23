@@ -4,5 +4,5 @@ branches:
 
 jobs:
     include:
-	- stage: test
-	  script: pytest
+    - stage: test
+      script: pytest
