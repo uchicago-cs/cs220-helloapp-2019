@@ -1,0 +1,6 @@
+hello:test:
+    stage: test
+    script:
+	- pytest
+    only:
+	- master
